@@ -5,7 +5,7 @@ Le Bot qui relie votre installation Pterodactyl et WHMCS directement à Discord.
   <img width="250" src="https://thehostingbot.xyz/assets/images/image022569.png?v51105510535061">
 </p>
 
-## Utiliser une api pour récupérer des données
+## Methode générale
 
 ```javascript
 const axios = require("axios");
@@ -13,7 +13,6 @@ axios
   .get('URL')
   .then(response => {
   console.log(response.data) //Vous renvoie les données sous forme de JSON
-  console.log
   })
 ```
 
