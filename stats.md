@@ -14,9 +14,19 @@ axios
   .then(response => {
   console.log(response.data)
   })
-  /*
-exemple de réponse dans la console : 
-{"bot":{"users":38,"servers":7,"ping":115,"vDJS":"12.3.1","vNJS":"v12.4.0"},"clients":{"total":4,"free":"-","satisfaits":"-","files":"-"},"lastupdate":"15 novembre 2020 14:49"}*/
+  
+/*exemple de réponse dans la console : 
+{
+  "bot": {
+    "users": 38,
+    "servers": 7,
+    "ping": 115,
+    "vDJS": "12.3.1",
+    "vNJS": "v12.4.0"
+  },
+  "clients": { "total": 4, "free": "-", "satisfaits": "-", "files": "-" },
+  "lastupdate": "15 novembre 2020 14:49"
+}*/
 ```
 
 
