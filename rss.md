@@ -10,7 +10,7 @@ Le Bot qui relie votre installation Pterodactyl et WHMCS directement à Discord.
 ```javascript
 const axios = require("axios");
 axios
-  .get('https://manager.thehostingbot.xyz/api/rss')
+  .get('https://my.thehostingbot.xyz/api/rss')
   .then(response => {
   console.log(response.data)
   })
@@ -20,24 +20,24 @@ axios
   <rss version="2.0">
 <channel>
 <title>TheHosting Bot</title>
-<link>https://manager.thehostingbot.xyz</link>
+<link>https://my.thehostingbot.xyz</link>
 <language>fr</language>
 <description/>
 <image>
 <title>TheHosting Bot</title>
 <url>
-https://manager.thehostingbot.xyz/storage/img/logo.png
+https://my.thehostingbot.xyz/storage/img/logo.png
 </url>
-<link>https://manager.thehostingbot.xyz</link>
+<link>https://my.thehostingbot.xyz</link>
 </image>
-<atom:link href="https://manager.thehostingbot.xyz/api/rss" rel="self" type="application/rss+xml"/>
+<atom:link href="https://my.thehostingbot.xyz/api/rss" rel="self" type="application/rss+xml"/>
 <item>
 <title>[Client Spotlight] NetHeberg.fr !</title>
 <link>
-https://manager.thehostingbot.xyz/news/spotlight-netheberg
+https://my.thehostingbot.xyz/news/spotlight-netheberg
 </link>
 <guid>
-https://manager.thehostingbot.xyz/news/spotlight-netheberg
+https://my.thehostingbot.xyz/news/spotlight-netheberg
 </guid>
 <description>
 NetHeberg est client de TheHosting Bot ! Découvrez à travers le programme Client Spotlight NetHeberg.fr !
@@ -52,10 +52,10 @@ NetHeberg est client de TheHosting Bot ! Découvrez à travers le programme Clie
 <item>
 <title>Lancement du projet !</title>
 <link>
-https://manager.thehostingbot.xyz/news/ouverture-du-projet-beta
+https://my.thehostingbot.xyz/news/ouverture-du-projet-beta
 </link>
 <guid>
-https://manager.thehostingbot.xyz/news/ouverture-du-projet-beta
+https://my.thehostingbot.xyz/news/ouverture-du-projet-beta
 </guid>
 <description>Découvrez dès maintenant TheHosting Bot !</description>
 <pubDate>Sun, 15 Nov 2020 17:20:43 +0100</pubDate>
